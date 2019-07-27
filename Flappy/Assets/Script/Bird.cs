@@ -40,5 +40,6 @@ public class Bird : MonoBehaviour
         anim.SetTrigger("Die");
         //gameController.BirdDie();
         GameController.instance.BirdDie();
+        rb2d.velocity = Vector2.zero;
     }
 }
