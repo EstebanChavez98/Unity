@@ -62,9 +62,11 @@
   <ItemGroup>
     <Compile Include="Assets\Script\Bird.cs" />
     <Compile Include="Assets\Script\Column.cs" />
+    <Compile Include="Assets\Script\ColumnPool.cs" />
     <Compile Include="Assets\Script\GameController.cs" />
     <Compile Include="Assets\Script\RepeatingBackground.cs" />
     <Compile Include="Assets\Script\ScrollingObject.cs" />
+    <Compile Include="Assets\Script\SoundSystem.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/EstebanChavezVerdin/OneDrive - JORGE LUIS FELIX CHAIDEZ/Escritorio/Unity/Flappy/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>

@@ -30,6 +30,7 @@ public class GameController : MonoBehaviour
         if (gameOver) return;
         score++;
         scoreText.text = "Score: " + score;
+        SoundSystem.instance.PlayPoint();
     }
 
     // Update is called once per frame
