@@ -26,7 +26,7 @@ public class Bird : MonoBehaviour
     {
         if (isDead) return;
 
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0) || Input.GetKeyDown(KeyCode.Return) || Input.GetKeyDown(KeyCode.Space))
         {
             rb2d.velocity = Vector2.zero;
             rb2d.AddForce(Vector2.up * upForce);
